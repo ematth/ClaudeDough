@@ -1,5 +1,9 @@
 # Project Specifications
 
+[AGENTS.md](https://github.com/agentsmd/agents.md) is the default filename, and is configured for Cursor, Jules from Google, Gemini CLI, Copilot, and many other models.
+For Claude users, rename to `CLAUDE.md`.
+
+
 <!-- 
 INSTRUCTIONS FOR AGENTS:
 Before starting implementation, scan this document for any remaining [[ ]] placeholders.
@@ -38,7 +42,8 @@ List all unfilled [[ ]] items and request clarification.
 - [[ excluded feature 1 ]]
 - [[ excluded feature 2 ]]
 
-### Acceptance Criteria
+### Success Criteria (Do not stop until these are completed or MAX_ITERATIONS is hit.)
+- MAX_ITERATIONS = [[]]
 - [[ criterion 1 ]]
 - [[ criterion 2 ]]
 
@@ -282,4 +287,4 @@ def example_function(param1: str, param2: int) -> bool:
 
 ---
 
-<!-- END OF TEMPLATE -->
+<-- Written by Ematth, 2026  - https://github.com/ematth/AgentDough -->
